@@ -33,14 +33,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+    The primary difference between adaptive vs full responsive is that adaptive uses pre-selected HTML for different screen sizes,
+    whereas with full responsive, all content is downloaded from one 'master' template and elements are sized accordingly through
+    the use of media queries.
 
 2. Describe what it means to be mobile first vs desktop first.
+    Mobile first implies you will design and code for a mobile device first and expand layout or features as you gain more screen space toward desktop. For CSS implementations mobile first usually means your general styles are pointed at the phone and you utilize min-width media queries to layer on more complexity as you grow toward desktop views.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+    Because the rem unit is relative to the root (html element), it allows us to define a single font size on the html element and define all rem units to be a percentage of the root thereafter.
 
 4. How would you describe preprocessing to someone new to CSS?
+    Preprocessing is simply a more robust syntax for CSS written in a different language. That language is then compiled into normal CSS. Becoming fluid in preprocessing will increase productivity and decrease errors.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    I like variables for their ability to affect change on a massive scale simply by changing the value assigned to any given variable. The concept that gives me the most trouble is parametric mixins. I still do not have this concept down and struggle to see that value as it seems like extra (unnecessary) code to me.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
